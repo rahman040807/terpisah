@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Profil | Terpisah</title>
+    <!-- PANGGIL FILE CSS DARI LUAR -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- NAVIGASI -->
+    <nav class="nav-bar">
+        <div class="container">
+            <a href="#" class="logo">WEBSITE PRIBADI</a>
+            <div class="menu-tombol" id="bukaMenu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="menu" id="menuUtama">
+                <a href="#beranda">Beranda</a>
+                <a href="#tentang">Tentang</a>
+                <a href="#keahlian">Keahlian</a>
+                <a href="#kontak">Kontak</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- BAGIAN BERANDA -->
+    <section id="beranda" class="beranda">
+        <div class="container">
+            <div class="beranda-kiri">
+                <h1>Halo, Saya <br> <span class="warna-gradien">Pengembang Web</span></h1>
+                <p>Saya suka bikin website yang indah, cepat, dan enak dipakai. Ubah ide jadi kenyataan lewat kode.</p>
+                <div class="tombol-grup">
+                    <a href="#kontak" class="tombol utama">Hubungi Saya</a>
+                    <a href="#tentang" class="tombol biasa">Lihat Profil</a>
+                </div>
+                <!-- BAGIAN SOSMED -->
+<div class="sosmed">
+    <a href="https://instagram.com/rahman_040807" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://github.com/rahman040807" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://id.linkedin.com/in/ilham-aditya-0b81b53bb" target="_blank"><i class="fab fa-linkedin"></i></a>
+</div>
+
+            </div>
+            <div class="beranda-kanan">
+                <div class="lingkaran"></div>
+                <div class="foto-bingkai">
+                    <img src="https://i.ibb.co.com/d076ZKmv/Snap-Insta-to-472755683-1834340547329887-3219021610705734373-n.jpg" alt="Foto Profil">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BAGIAN TENTANG -->
+    <section id="tentang" class="tentang">
+        <div class="container">
+            <div class="judul-bagian">
+                <h2>Tentang Saya</h2>
+                <p>Sedikit cerita siapa saya dan apa yang saya kerjakan</p>
+            </div>
+            <div class="tentang-isi">
+                <div class="tentang-teks">
+                    <p>Halo! Nama saya <b>Ilham aditya Rahman</b>, pengembang web asal Bandung. Saya suka teknologi dan ngoding sejak sekolah.</p>
+                    <p>Fokus saya bikin website/aplikasi yang responsif, cepat, dan nyaman dipakai. Bagi saya, kode itu seni memecahkan masalah.</p>
+                    <div class="data-diri">
+                        <div><i class="fas fa-calendar"></i>4 Tahun</div>
+                        <div><i class="fas fa-map-marker-alt"></i> Bandung</div>
+                        <div><i class="fas fa-envelope"></i> ilhamadityarahman12@gmail.com</div>
+                    </div>
+                </div>
+                <div class="statistik">
+                    <div class="kotak-stat">
+                        <h3>50+</h3>
+                        <p>Proyek Selesai</p>
+                    </div>
+                    <div class="kotak-stat">
+                        <h3>30+</h3>
+                        <p>Klien Puas</p>
+                    </div>
+                    <div class="kotak-stat">
+                        <h3>4+</h3>
+                        <p>Tahun Pengalaman</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BAGIAN KEAHLIAN -->
+    <section id="keahlian" class="keahlian">
+        <div class="container">
+            <div class="judul-bagian">
+                <h2>Keahlian Saya</h2>
+                <p>Teknologi yang saya kuasai dan pakai sehari-hari</p>
+            </div>
+            <div class="daftar-keahlian">
+                <div class="bar-keahlian">
+                    <label>HTML & CSS</label>
+                    <div class="bar-latar">
+                        <div class="bar-isi" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="bar-keahlian">
+                    <label>JavaScript</label>
+                    <div class="bar-latar">
+                        <div class="bar-isi" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="bar-keahlian">
+                    <label>PHP & MySQL</label>
+                    <div class="bar-latar">
+                        <div class="bar-isi" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="bar-keahlian">
+                    <label>Desain UI/UX</label>
+                    <div class="bar-latar">
+                        <div class="bar-isi" style="width: 80%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BAGIAN KONTAK -->
+    <section id="kontak" class="kontak">
+        <div class="container">
+            <div class="judul-bagian">
+                <h2>Hubungi Saya</h2>
+                <p>Silakan kirim pesan kalau ada perlu</p>
+            </div>
+            <form class="form-kontak" action="https://formsubmit.co/ilhamadityarahman12@gmail.com" method="POST">
+    <input type="text" name="nama" placeholder="Nama Lengkap" required>
+    <input type="email" name="email" placeholder="Email Aktif Pengirim" required>
+    <textarea name="pesan" placeholder="Isi Pesan..." rows="5" required></textarea>
+
+    <!-- Biar balik ke halaman utama & hilangkan tanda robot -->
+    <input type="hidden" name="_next" value="https://github.com/rahman040807">
+    <input type="hidden" name="_subject" value="Pesan Baru Dari Website Rahman!">
+    <input type="hidden" name="_captcha" value="false">
+    
+    <button type="submit" class="tombol utama">📩 Kirim Pesan ke Email</button>
+</form>
+<br>
+<center>ATAU</center>
+<br>
+<center>
+    <a href="https://wa.me/6283184712006?text=Halo%20Rahman,%20saya%20lihat%20dari%20website%20kamu,%20boleh%20tanya%20sedikit%20?" target="_blank" class="tombol utama">
+        📲 Chat Langsung ke WhatsApp
+    </a>
+</center>
+
+        </div>
+    </section>
+
+    <!-- PANGGIL FILE JAVASCRIPT DARI LUAR -->
+    <script src="script.js"></script>
+</body>
+</html>
